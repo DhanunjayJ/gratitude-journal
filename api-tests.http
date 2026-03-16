@@ -1,0 +1,13 @@
+### Get All Entries
+GET http://localhost:8080/api/entries
+
+### Create a New Entry
+POST http://localhost:8080/api/entries
+Content-Type: application/json
+
+{
+    "content": "I am grateful for my progress in Spring Boot today."
+}
+
+### Delete an Entry (Replace 1 with the actual ID from your GET request)
+DELETE http://localhost:8080/api/entries/2
